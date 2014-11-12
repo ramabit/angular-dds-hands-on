@@ -3,7 +3,7 @@ class CreateCasas < ActiveRecord::Migration
     create_table :casas do |t|
       t.string :nombre
       t.integer :patrimonio
-      t.integer :fundadada_en
+      t.integer :fundada_en
 
       t.timestamps
     end

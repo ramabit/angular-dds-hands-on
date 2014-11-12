@@ -1,4 +1,2 @@
-class Aerea < ActiveRecord::Base
-
-  belongs_to :casa
+class Aerea < Fuerza
 end

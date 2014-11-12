@@ -1,4 +1,2 @@
-class Terrestre < ActiveRecord::Base
-
-  belongs_to :casa
+class Terrestre < Fuerza
 end

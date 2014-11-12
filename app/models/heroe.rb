@@ -1,4 +1,2 @@
-class Heroe < ActiveRecord::Base
-
-  belongs_to :casa
+class Heroe < Fuerza
 end

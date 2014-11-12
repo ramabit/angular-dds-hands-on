@@ -1,4 +1,3 @@
-class Naval < ActiveRecord::Base
+class Naval < Fuerza
 
-  belongs_to :casa
 end

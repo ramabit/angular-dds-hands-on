@@ -11,39 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141110234613) do
-
-  create_table "aereas", force: true do |t|
-    t.integer  "cantidad_dragones"
-    t.integer  "casa_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+ActiveRecord::Schema.define(version: 20141110234535) do
 
   create_table "casas", force: true do |t|
     t.string   "nombre"
     t.integer  "patrimonio"
-    t.integer  "fundadada_en"
+    t.integer  "fundada_en"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "heroes", force: true do |t|
-    t.integer  "poder_especial"
-    t.integer  "casa_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "navals", force: true do |t|
+  create_table "fuerzas", force: true do |t|
+    t.string   "type"
     t.integer  "cantidad_soldados"
-    t.integer  "casa_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "terrestres", force: true do |t|
-    t.integer  "cantidad_soldados"
+    t.integer  "cantidad_barcos"
+    t.integer  "cantidad_dragones"
+    t.integer  "poder"
+    t.string   "nombre"
     t.integer  "casa_id"
     t.datetime "created_at"
     t.datetime "updated_at"
