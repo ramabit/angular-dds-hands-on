@@ -10,6 +10,12 @@ Template de Rails para el Hands on de Angular de la clase bonus de Diseño de Si
 $ git clone git@github.com:jvillarejo/angular-dds-hands-on.git
 ```
 
+* Entrar a la carpeta recién clonada
+
+```
+$ cd angular-dds-hands-on
+```
+
 * Correr: 
 
 ```
