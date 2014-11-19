@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails angular-dds-hands-on: development" uuid="d28d4eb1-b930-4639-aff0-8ef87952f510">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails angular-dds-hands-on: test" uuid="5d799ac4-37a4-47a9-9325-061a058ff652">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

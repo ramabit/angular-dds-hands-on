@@ -1,2 +1,18 @@
+<div ng-controller="heroes_controller">
 
-<h1>Bienvenidos a la Red Wedding</h1>
+  <h1>Bienvenidos a GOT</h1>
+
+  <table class="table">
+    <tr>
+      <th>Nombre</th>
+      <th>Poder</th>
+      <th>Casa</th>
+    </tr>
+    <tr ng-repeat="heroe in view.heroes" ng-class="view.casaHeroe(heroe)" ng-show="view.poderoso(heroe) && !view.viveEnLannister(heroe)">
+      <th>{{heroe.nombre}}</th>
+      <th>{{heroe.poder}}</th>
+      <th>{{heroe.casa}}</th>
+    </tr>
+  </table>
+
+</div>
